@@ -1,0 +1,19 @@
+{
+  "name": "repo-sc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/getPage.js"
+  },
+  "keywords": [],
+  "author": "Jorge Saud (https://modyo.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.1",
+    "path": "^0.12.7"
+  }
+}
